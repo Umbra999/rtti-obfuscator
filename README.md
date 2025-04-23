@@ -1,6 +1,6 @@
 # Simple C++ RTTI Obfuscator
 
-This tool obfuscates all **Run-Time Type Information (RTTI)** in a given C++ binary. It can help protect against reverse engineering attempts or prevent tracking through anti-cheat systems.
+This tool obfuscates all **Run-Time Type Information (RTTI)** in a given C++ binary by replacing known patterns. It can help protect against reverse engineering attempts or prevent tracking through anti-cheat systems.
 
 ### Features
 - **RTTI Obfuscation:** Masks RTTI data to hinder reverse engineering.
