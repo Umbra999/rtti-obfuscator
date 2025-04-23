@@ -9,7 +9,7 @@ This tool obfuscates all **Run-Time Type Information (RTTI)** in a given C++ bin
 
 ### Usage
 1. **Prepare the files:** Make sure you have the binary file (e.g., `.dll`) that you want to obfuscate.
-2. **Run the tool:** Simply drag and drop the binary onto the executable (`obfuscator.exe`), and it will automatically modify the binary in-place.
+2. **Run the tool:** Simply drag and drop the binary onto the executable (`rtti-obfuscator.exe`), and it will automatically modify the binary in-place.
 
 ### Example
 ```bash
