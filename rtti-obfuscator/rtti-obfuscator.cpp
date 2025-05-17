@@ -100,7 +100,8 @@ int main(int argc, char* argv[])
 			throw std::runtime_error("Could not write to file " + outputPath);
 		}
 
-		std::cout << "Successfully obfuscated rtti" << std::endl;
+		int32_t count = renamedTypes.size();
+		std::cout << "Successfully obfuscated " << count << " RTTI entries" << std::endl;
 	}
 	catch (std::exception& e)
 	{
